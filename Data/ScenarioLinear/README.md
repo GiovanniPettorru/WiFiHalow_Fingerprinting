@@ -26,7 +26,3 @@ The `Linear.csv` file uses a semicolon (`;`) as a delimiter. Each column represe
 | `RSSI_30meters` | RSSI measurement at 30 meters |
 | `RSSI_35meters` | RSSI measurement at 35 meters |
 | `RSSI_40meters` | RSSI measurement at 40 meters |
-
-## Technical Details
-- **Devices:** Raspberry Pi 4 Model B equipped with ALFA AHPI7292S (Newracom NRC7292 chipset) WiFi HaLow modules.
-- **Configuration:** Open network mode, EU regulatory region.

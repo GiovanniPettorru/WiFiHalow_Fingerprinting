@@ -8,6 +8,30 @@ This dataset was collected at the CUS sports citadel in Cagliari, Italy. The exp
   <figcaption>Figure 1: Experimental setup for WiFi HaLow fingerprinting measurements.</figcaption>
 </figure>
 
+## Coordinate Mapping
+The following tables define the spatial mapping (in meters). The coordinate system is **relative to Anchor A2**, which is set at the origin **(0, 0)**.
+
+### Anchor Positions
+| Anchor ID | X (m) | Y (m) |
+| :--- | :--- | :--- |
+| A1 | 0 | 44 |
+| A2 | 0 | 0 |
+| A3 | 23.5 | 0 |
+| A4 | 23.5 | 44 |
+
+### Target Positions
+| Position ID | X (m) | Y (m) |
+| :--- | :--- | :--- |
+| P1 | 6 | 34 |
+| P2 | 11.75 | 34 |
+| P3 | 17.5 | 34 |
+| P4 | 6 | 22 |
+| P5 | 11.75 | 22 |
+| P6 | 17.5 | 22 |
+| P7 | 6 | 10 |
+| P8 | 11.75 | 10 |
+| P9 | 17.5 | 10 |
+
 ## Data Acquisition
 - **Sampling Frequency:** 1 Hz (1 measurement per second).
 - **Duration:** 10 minutes of continuous data collection for each of the 9 positions.
@@ -25,7 +49,3 @@ The CSV files use a semicolon (`;`) as a delimiter. Each record contains the fol
 | `MCS_APx` | Modulation and Coding Scheme for AP *x* |
 
 *Note: The metrics (`RSSI`, `SNR`, `MCS`) are provided for 4 distinct Access Points (AP1 to AP4).*
-
-## Technical Details
-- **Devices:** Raspberry Pi 4 Model B equipped with ALFA AHPI7292S (Newracom NRC7292 chipset) WiFi HaLow modules.
-- **Configuration:** Open network mode, EU regulatory region.
