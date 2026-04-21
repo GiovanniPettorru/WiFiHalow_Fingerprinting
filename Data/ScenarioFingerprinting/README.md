@@ -41,11 +41,11 @@ The following tables define the spatial mapping (in meters). The coordinate syst
 ## Data Structure
 The CSV files use a semicolon (`;`) as a delimiter. Each record contains the following metrics collected from 4 different Access Points (AP):
 
-| Column Name | Description |
-| :--- | :--- |
-| `position_id` | Identifier of the Access Point position (1 to 9) |
-| `RSSI_APx` | Received Signal Strength Indicator for AP *x* (dBm) |
-| `SNR_APx` | Signal-to-Noise Ratio for AP *x* (dB) |
-| `MCS_APx` | Modulation and Coding Scheme for AP *x* |
+| Column Name   | Description                                        |
+|:--------------|:---------------------------------------------------|
+| `position_id` | Identifier of the Access Point position (1 to 9)   |
+| `RSSI_Ax`     | Received Signal Strength Indicator for A *x* (dBm) |
+| `SNR_Ax`      | Signal-to-Noise Ratio for A *x* (dB)               |
+| `MCS_Ax`      | Modulation and Coding Scheme for A *x*             |
 
-*Note: The metrics (`RSSI`, `SNR`, `MCS`) are provided for 4 distinct Access Points (AP1 to AP4).*
+*Note: The metrics (`RSSI`, `SNR`, `MCS`) are provided for 4 distinct Access Points (A1 to A4).*
