@@ -20,7 +20,7 @@ This work aims to assess the reliability of localization data (RSSI/Fingerprinti
 The data is organized by measurement campaign:
 
 - **`/Data/ScenarioLinear`**: Dataset for linear propagation analysis (Clean Baseline). [View details](./Data/ScenarioLinear/README.md)
-- **`/Data/Fingerprinting`**: Dataset for radio fingerprinting-based localization. [View details](./Data/Fingerprinting/README.md)
+- **`/Data/Fingerprinting`**: Dataset for radio fingerprinting-based localization. [View details](./Data/ScenarioFingerprinting/README.md)
 
 ## License and Citation
 This dataset is distributed under the Creative Commons Attribution 4.0 International License.
