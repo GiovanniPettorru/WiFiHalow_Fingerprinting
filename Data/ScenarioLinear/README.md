@@ -5,14 +5,13 @@ This dataset was collected at the CUS sports citadel in Cagliari, Italy, in an o
 
 <figure>
   <img src="img/LinearScenario.png" alt="Linear scenario setup" width="75%">
-  <figcaption>Figure 1: Experimental setup for linear propagation measurements.</figcaption>
+  <figcaption>Figure 1: Experimental setup for WiFi HaLow linear propagation measurements.</figcaption>
 </figure>
 
-## Technical Details
-- **Devices:** Raspberry Pi 4 Model B equipped with ALFA AHPI7292S (Newracom NRC7292 chipset) WiFi HaLow modules.
-- **Configuration:** Line of Sight (LOS).
+## Data Acquisition
+- **Measurement Scope:** RSSI measurements collected at incremental distances (5m to 40m).
 - **Data Cleaning:** Outliers removed using a 1st–99th percentile filter.
-- **Files:** `Linear.csv` contain RSSI measurements (in dBm).
+- **Files:** `Linear.csv` contains the post-processed RSSI measurements.
 
 ## Data Structure
 The `Linear.csv` file uses a semicolon (`;`) as a delimiter. Each column represents the RSSI measurements (in dBm) collected at a specific distance from the anchor:
@@ -27,3 +26,7 @@ The `Linear.csv` file uses a semicolon (`;`) as a delimiter. Each column represe
 | `RSSI_30meters` | RSSI measurement at 30 meters |
 | `RSSI_35meters` | RSSI measurement at 35 meters |
 | `RSSI_40meters` | RSSI measurement at 40 meters |
+
+## Technical Details
+- **Devices:** Raspberry Pi 4 Model B equipped with ALFA AHPI7292S (Newracom NRC7292 chipset) WiFi HaLow modules.
+- **Configuration:** Open network mode, EU regulatory region.
