@@ -1,5 +1,7 @@
 # Escludi la cartella script e tutti i file al suo interno
 Script/
+venv/
+.idea/
 
 # File di sistema e temporanei comuni
 .DS_Store
