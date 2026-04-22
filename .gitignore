@@ -1,0 +1,10 @@
+# Escludi la cartella script e tutti i file al suo interno
+Script/
+
+# File di sistema e temporanei comuni
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+.env
+.ipynb_checkpoints/
