@@ -22,14 +22,6 @@ The data is organized by measurement campaign:
 - **`/Data/ScenarioLinear`**: Dataset for linear propagation analysis (Clean Baseline). [View details](./Data/ScenarioLinear/README.md)
 - **`/Data/Fingerprinting`**: Dataset for radio fingerprinting-based localization. [View details](./Data/ScenarioFingerprinting/README.md)
 
-## License and Citation
+## License
 This dataset is distributed under the Creative Commons Attribution 4.0 International License.
-If you use this dataset in your research, please cite our paper:
 
-```bibtex
-@article{PeCuPiMa26,
-  author = {Pettorru, Giovanni and Curridori, Marta and Pilloni, Virginia and Martalò, Marco},
-  title = {Experimental Impact Analysis of Byzantine Attacks on WiFi HaLow Fingerprinting-Based Positioning},
-  journal = {To be defined/Insert Conference or Journal Name},
-  year = {2026}
-}
