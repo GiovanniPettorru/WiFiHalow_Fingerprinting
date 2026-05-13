@@ -1,6 +1,7 @@
 # Byzantine-Resilient WiFi HaLow Fingerprinting Dataset
 
-This repository contains the experimental datasets used in the study: *"Experimental Impact Analysis of Byzantine Attacks on WiFi HaLow Fingerprinting-Based Positioning"*.
+This repository contains the experimental datasets used in the study: *"On the Feasibility and Byzantine Resilience of WiFi
+HaLow Fingerprinting-Based IoT Positioning"*.
 
 ## Hardware Configuration
 The measurement campaign was conducted using an IoT infrastructure based on the following components:
